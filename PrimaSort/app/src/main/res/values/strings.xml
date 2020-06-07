@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">PrimaSort</string>
+    <string name="Llogin">Login</string>
+    <string name="Lhaslo">Hasło</string>
+    <string name="Llogowanie">Zaloguj</string>
+    <string name="Lrejestracja">Nie masz konta? Zarejestruj się</string>
+    <string name="haslo">Hasło</string>
+    <string name="Glokalizacjapszok">Lokalizacja najbliższych punktów selektywnej zbiórki odpadów</string>
+    <string name="Glogowanie">Logowanie</string>
+    <string name="GRejestracja">Rejestracja</string>
+    <string name="Gnazwamiejscowosci">Nazwa miejscowości</string>
+    <string name="Gskan">Zeskanuj swój kod kreskowy</string>
+    <string name="Rlogin">Login (6-15 znaków)</string>
+    <string name="Rhaslo">Hasło(8-20 znaków)</string>
+    <string name="Rpowthaslo">Powtórz hasło</string>
+    <string name="Ruzytkownik">Nazwa użytkownika</string>
+    <string name="Remail">adres e-mail</string>
+    <string name="Rackeptuje">Akceptuje Regualmin</string>
+    <string name="Rstworzkonto">Załóż konto</string>
+    <string name="Rcofnij">Cofnij</string>
+    <string name="Rwarnlogin">warn login</string>
+    <string name="Rwarnpassword">warn password</string>
+    <string name="Rwarn2pass">warn 2password</string>
+    <string name="Rwarnemail">rwarnemail</string>
+
+
+</resources>

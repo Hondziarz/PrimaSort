@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".rejestracja">
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/Rhaslo"
+        android:layout_width="245dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="15dp"
+        android:hint="@string/Rhaslo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Rwarnlogin" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/Remail"
+        android:layout_width="245dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="15dp"
+        android:hint="@string/Remail"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Rwarn2pass" />
+
+    <ImageView
+        android:id="@+id/Rcofnij"
+        android:layout_width="78dp"
+        android:layout_height="78dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:contentDescription="@string/Rcofnij"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/back" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/Rlogin"
+        android:layout_width="245dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="124dp"
+        android:hint="@string/Rlogin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/Rpowthaslo"
+        android:layout_width="245dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="15dp"
+        android:hint="@string/Rpowthaslo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Rwarnpassword" />
+
+    <CheckBox
+        android:id="@+id/Rakceptujer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="@string/Rackeptuje"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Rwarnemail" />
+
+    <Button
+        android:id="@+id/Rzalozkonto"
+        android:layout_width="219dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="32dp"
+        android:onClick="sumbitData"
+        android:text="@string/Rstworzkonto"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.489"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Rakceptujer" />
+
+    <TextView
+        android:id="@+id/Rwarn2pass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Rpowthaslo" />
+
+    <TextView
+        android:id="@+id/Rwarnemail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Remail" />
+
+    <TextView
+        android:id="@+id/Rwarnpassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Rhaslo" />
+
+    <TextView
+        android:id="@+id/Rwarnlogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Rlogin" />
+</androidx.constraintlayout.widget.ConstraintLayout>
